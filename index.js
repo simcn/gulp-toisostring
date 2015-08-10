@@ -14,6 +14,7 @@ module.exports = function (options) {
     _ainfo.push('/* ');
     _ainfo.push(new Date().toISOString());
     _ainfo.push(' */');
+    _ainfo.push("\r\n");
     _ainfo.push(str);
     var newstr = _ainfo.join('');
     file.contents = new Buffer(newstr);

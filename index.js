@@ -5,7 +5,7 @@
  */
 var through2 = require('through2');
 
-module.exports = function (options, author) {
+module.exports = function (options) {
 
 
 
@@ -17,7 +17,7 @@ module.exports = function (options, author) {
     var _ainfo = [];
     _ainfo.push('/* ');
     _ainfo.push(new Date().toString());
-    _ainfo.push(' '+ author);
+    _ainfo.push(' '+ options);
     _ainfo.push(' */');
     _ainfo.push("\r\n");
     _ainfo.push(str);

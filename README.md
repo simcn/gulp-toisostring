@@ -13,7 +13,7 @@ var toisostring = require('gulp-toisostring');
 gulp.task('less', function() {
 	return gulp.src(lesspath)
 		.pipe(less())
-		.pipe(toisostring())
+		.pipe(toisostring('author'))
 		.pipe(gulp.dest('test'));
 });
 ```

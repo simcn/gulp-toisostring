@@ -22,11 +22,5 @@
   "homepage": "https://github.com/simcn/gulp-toisostring#readme",
   "dependencies": {
     "through2": "^2.0.0"
-  },
-  "devDependencies": {
-    "jasmine-core": "^2.3.4",
-    "karma": "^0.13.9",
-    "karma-chrome-launcher": "^0.2.0",
-    "karma-jasmine": "^0.3.6"
   }
 }

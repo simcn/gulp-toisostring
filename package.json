@@ -1,6 +1,6 @@
 {
   "name": "gulp-toisostring",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "gulp 文件头增加本地时间戳插件",
   "main": "index.js",
   "scripts": {

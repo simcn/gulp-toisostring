@@ -38,7 +38,7 @@ module.exports = function(options) {
         var str = file.contents.toString();
         var _ainfo = [];
         _ainfo.push(options);
-        _ainfo.push(str);
+        _ainfo.push(replaceCDN(str));
         var newstr = _ainfo.join('');
         file.contents = new Buffer(newstr);
         callback(null, file);
